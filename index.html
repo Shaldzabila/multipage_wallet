@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>
+        <img src="https://raw.githubusercontent.com/Shaldzabila/multipage_exercise/main/logo.png"></title> 
+    <link rel="stylesheet" href="stylesheet1a.css"> 
+    <link rel="stylesheet" href="responsive1a.css"> 
+    <link rel="stylesheet" href="//maxcdn.../font-awesome.min.css">
+    <style>
+      body {
+        margin: 0;
+      }
+/* Modal (background) */
+      #myModal {
+        display: none; /* Tersembunyi secara default */
+        position: fixed; /* Agar selalu berada di tempat tersebut */
+        z-index: 1; /* Agar berada di paling depan */
+        padding-top: 100px; /* Agar memiliki jarak dari atas halaman */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+
+      /* Konten Modal */
+      #modalContent {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+      }
+
+      /* Tombol keluar */
+      #closeModal {
+        color: #aaaaaa;
+        float: right;
+      }
+
+      #closeModal:hover,
+      #closeModal:focus {
+        color: #000;
+        cursor: pointer;
+      }
+
+      .mySlides {
+        display: none; /* Tersembunyi secara default */
+      }
+
+      img {
+        vertical-align: center;
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        horizontal-align: left;
+      }
+
+      .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin-left: 200px;
+        width: 25%;
+        height: 400px;
+      }
+
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+
+      /* Meletakkan tombol next ke sebelah kanan */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+
+      /* Animasi */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+      @-webkit-keyframes fade {
+        from {
+          opacity: 0.4;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes fade {
+        from {
+          opacity: 0.4;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head> 
+  <body>
+    <header>
+      <div class="logo"><img src="https://raw.githubusercontent.com/Shaldzabila/multipage_exercise/main/logo.png">
+      </div>
+      <un class="sections">
+        <a class="section" href="https://shaldzabila.github.io/multipage_exercise/">Bag</a>
+        <a class="section" href="https://shaldzabila.github.io/multipage_exercise/">Clutches</a>
+        <a class="section" href= "https://shaldzabila.github.io/multipage_exercise/">All Product</a>
+        <a class="sectionright" href="https://www.instagram.com/affordept/"  >About Us</a>
+        
+      </un>
+    </header>
+    <main>
+      <div class="uppermain">
+      
+       <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="https://raw.githubusercontent.com/Shaldzabila/multipage_wallet/main/cscdc.JPG" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="https://raw.githubusercontent.com/Shaldzabila/multipage_wallet/main/dws.JPG" />
+      </div>
+
+      <div class="mySlides fade">
+        <img src="https://raw.githubusercontent.com/Shaldzabila/multipage_wallet/main/xs.JPG" />
+      </div>
+      <div class="mySlides fade">
+        <img src="https://raw.githubusercontent.com/Shaldzabila/multipage_wallet/main/csas.JPG" />
+      </div>
+
+     
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class="info">
+      <h1>Cath Kidstone - Anne Wallet</h1>
+      <p>Code: Alpine Ditsy StoneTorry (s) Brand: Cath Kidston</p>
+<p>Type: Small Foldover Wallet</p>
+<p>Colour: White</p>
+<p>Dimension (cm): 10x8x4</p>
+
+<p>Aff-Price: IDR 3xx.xxx</p>
+<p>Store price: IDR 5xx.000</p>
+
+<p>Description:</p>
+<p>Compact tri-fold design</p>
+<p>Popper closure</p>
+<p>4 card slots</p>
+<p>Separate sections for coins and notes</p>
+<p>Clear ID section</p>
+
+
+<p>Include:</p>
+<p>Affordept Dustbag</p>
+
+
+<p>For further info catch us on DM or click link in our bio🏅</p>
+
+<p>100% Authentic</p>
+<p>Brand New, Special Price</p>
+<p>Money back guarantee</p>
+
+<p>With love,</p>
+<p>Affordept.</p>
+
+<a class="buy" href="http://www.wa.link/wa2nh4">Buy Now!</a>
+    </div>
+    
+
+   
+ 
+
+
+
+      </div>
+        <div class="courses">
+        <h2>Our Goods:</h2>
+        <div class="course">
+           <img src="https://raw.githubusercontent.com/Shaldzabila/multipage_exercise/main/csd.JPG">
+           <p class="judul">Hush Puppies - Mariil Sling</p>
+
+                 </div>
+        <div class="course">
+          <button id="myBtn">
+          <img src="https://raw.githubusercontent.com/Shaldzabila/multipage_exercise/main/Capture.JPG">
+        </button>
+          <p class="judul">Hush Puppies - Kayden Clutch</p>
+          
+        </div>
+        <div class="course">
+          <a href=""><img src="https://raw.githubusercontent.com/Shaldzabila/multipage_exercise/main/ccd.JPG"></a>
+          <p class="judul">Cath Kidston - Rainbow Messenger bag</p>
+         
+        </div>
+        <div class="course">
+          <a href=""><img src="https://raw.githubusercontent.com/Shaldzabila/multipage_exercise/main/dsd.JPG"></a>
+          <p class="judul">Hush Puppies - Fliper</p>
+          
+        </div>
+        <div class="course openModal">
+          <a href=""><img src="https://raw.githubusercontent.com/Shaldzabila/multipage_exercise/main/csas.JPG"></a>
+          <p class="judul">Catch Kidstone - Anne Wallet</p>
+          
+        </div>
+        <div class="course">
+          <a href=""><img src="https://raw.githubusercontent.com/Shaldzabila/multipage_exercise/main/bucket.JPG"></a>
+          <p class="judul">Hush Puppies - Bucket Bag</p>
+          
+        </div>
+      </div>
+    </main>
+  
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Oops!</p>
+        <h1> SOLD OUT</h1>
+        <p>we know its feels bad,
+ but you can buy another available items!</p>
+  </div>
+</div>
+    <div class="footer">
+    <div class="logobawah">
+      <img src="https://github.com/Shaldzabila/multipage_exercise/blob/main/logo.png"> </div>
+    
+    <div class="sosmed f">
+  <p>Connect With Us!</p>
+  <ul>
+      <li><a href="https://www.instagram.com/affordept/">Instagram</a></li>
+      <li><a href="http://www.wa.link/wa2nh4">Whatsapp</a></li>
+      
+     
+    </ul>
+    <div class="copyright">
+      <p> copyright@affordeptxshaldzabila</p>
+    </div>
+    </div>
+
+  
+</body>
+
+<script>
+  let slideIndex = 1;
+
+  const plusSlides = (n) => {
+    slideIndex += n;
+    showSlides(slideIndex);
+  }
+  
+  const showSlides = (n) => {
+    const slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {
+      slideIndex = 1;
+    }
+    if (n < 1) {
+      slideIndex = slides.length;
+    }
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slides[slideIndex - 1].style.display = "block";
+  }
+
+  showSlides(slideIndex);      
+
+  
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+  </html>
